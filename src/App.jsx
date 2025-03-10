@@ -6,6 +6,7 @@ import Home from './components/Home'
 import PastIncidents from './components/PastIncidents'
 import Settings from './components/Settings'
 import Login from './components/Login'
+import Footer from "./components/Footer";
 const App = () => {
   
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Route path='/login' element={<Login  />} />
       
      </Routes>
+     <Footer />
     </div>
   )
 }

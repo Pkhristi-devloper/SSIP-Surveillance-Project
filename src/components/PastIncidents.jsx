@@ -479,12 +479,16 @@ const PastIncidents = () => {
           )}
         </div>
       </div>
-      <div className="right">
+      <div className="right w-[50%] h-screen flex justify-center items-center">
         {selectedVideo && (
-          <video width="600" controls>
-            <source src={selectedVideo} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+          <iframe
+          className="w-full h-full rounded-lg"
+          src="https://www.youtube.com/embed/AB-I3vsUk6g"
+          title="Main Video 2"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
         )}
       </div>
     </div>
