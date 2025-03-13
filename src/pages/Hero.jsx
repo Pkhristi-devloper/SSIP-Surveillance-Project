@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 
 const incidentsData = {
@@ -8,7 +9,7 @@ const incidentsData = {
           id: 1,
           name: "Leakage at Kalupur",
           eventDate: "2025-02-15",
-          photo: "/photo/leakage.jpg",
+          photo:"https://raw.githubusercontent.com/Pkhristi-devloper/SSIP-Surveillance-Project/main/photo/leakage.jpg",
         },
       ],
     },
@@ -20,7 +21,7 @@ const incidentsData = {
           id: 1,
           name: "Leakage at Kalupur",
           eventDate: "2025-02-15",
-          photo: "/photo/drainage1.webp",
+          photo:"https://raw.githubusercontent.com/Pkhristi-devloper/SSIP-Surveillance-Project/main/photo/drainage1.webp",
         },
       ],
     },
@@ -32,7 +33,7 @@ const incidentsData = {
           id: 1,
           name: "Leakage at Kalupur",
           eventDate: "2025-02-15",
-          photo: "/photo/damage1.jpg",
+          photo:"https://raw.githubusercontent.com/Pkhristi-devloper/SSIP-Surveillance-Project/main/photo/damage1.jpg",
         },
       ],
     },
@@ -44,7 +45,7 @@ const incidentsData = {
           id: 1,
           name: "Leakage at Kalupur",
           eventDate: "2025-02-15",
-          photo: "/photo/hoarding.jpg",
+          photo:"https://raw.githubusercontent.com/Pkhristi-devloper/SSIP-Surveillance-Project/main/photo/hoarding.jpg",
         },
       ],
     },
